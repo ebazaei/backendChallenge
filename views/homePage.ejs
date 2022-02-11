@@ -1,0 +1,44 @@
+<%- include('components/header') -%>
+
+
+    <h1>Home Page</h1>
+     <h6>This app is designed for the Matrix Master backend challenge . In this program, you can create a new post and finally edit or delete it.</h6> 
+
+    <div class="container">
+
+        <% if(postfeeds.length != 0){ %>
+            <% postfeeds.forEach( postfeed => { %>
+                        <div class="textbox">
+
+                            <div class="titletitr">
+                                <h2 > <%= postfeed.title %></h2>
+                            </div>
+
+
+                            <h5 >Date: <%= postfeed.updatedAt.toISOString() %></h5>
+                            <h4 >Email: <%= postfeed.emailform %></h4>
+                            <p ><%= postfeed.description %></p>
+                            <a href="/show-postfeed/<%= postfeed.id %>" class="editpostbtn">More...</a>
+                        </div>
+                        
+
+            <% }) %>
+        <% } else{ %>
+            <div class="centermsg">
+                <div class="spmsg"> There is no Post ... Please add a new post... </div>
+                <a href="/new-postfeed" class="newpostbtn"> Create new post </a>
+            </div>
+            
+        <% } %>
+
+
+        <div class="clear">
+            
+        </div>
+    </div>
+
+
+
+<%- include('components/footer') -%>
+
+

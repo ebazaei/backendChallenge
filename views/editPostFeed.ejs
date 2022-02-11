@@ -1,0 +1,21 @@
+<%- include('components/header') -%>
+
+    <h1>Edit Post: <%= postfeed.title %></h1>
+
+    <div class="container">
+
+        <form method="POST" action="/edit-postfeed/<%= postfeed.id %>" >
+                <br>Edit Title <br>
+                <input value="<%= postfeed.title %>" name="title" type="text"  class="textboxformfield">
+                <br>Edit Your Email <br>
+                <input value="<%= postfeed.emailform %>" name="emailform" type="email" class="textboxformfield">
+                <br>Edit Description <br>
+                <input value="<%= postfeed.description %>" name="description" type="text"  class="textboxformfield">
+
+                <br><br>
+                <button type="submit" class="btnform">Edit Post</button>
+        </form>
+
+    </div>  
+
+<%- include('components/footer') -%>

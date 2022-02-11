@@ -1,0 +1,17 @@
+<%- include('components/header') -%>
+
+    <h1>Create new post</h1>
+
+    <div class="container">
+
+        <form method="POST" action="/new-postfeed" >
+                <input name="title" type="text" class="textboxformfield" placeholder="Title">
+                <input name="emailform" type="email" class="textboxformfield" placeholder="Email">
+                <input name="description" type="text" class="textboxformfield" placeholder="Description">
+                <br>
+                <button type="submit" class="btnform">Add Post</button>
+        </form>
+
+    </div>
+
+<%- include('components/footer') -%>

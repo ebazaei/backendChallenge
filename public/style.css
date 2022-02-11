@@ -1,0 +1,227 @@
+/*...::  Final Challenge - Facebook : Ehsan Bazaei ::...*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+/*...::  Public ::...*/
+a{
+    color: #eeab18;
+    text-decoration: none;
+    transition: color 0.5s ease-out 100ms;
+}
+
+a:hover{
+    color: #cad9f8;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #3b5999;
+    color: #fff;
+}
+
+/*...::  Header ::...*/
+
+.btntop{
+    width: 100%;
+    margin: auto;
+    height: 25px;
+    padding: 20px 10px;
+    background-color: #143375;
+}
+
+.btntop a{
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.logo{
+    position:absolute;
+    right: 20px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* stage */ 
+h1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+    color: #cfcfe7;
+}
+
+h6{
+    font-weight: normal;
+    text-align: center;
+    margin-top: 15px;
+    color: #babad1;
+    font-size: 15px;
+}
+
+.container{
+    width: 90%;
+    padding: 20px 5%;
+    margin: 25px 0; 
+}
+
+.textbox{
+    width: 31%;
+    margin: 2px;
+    padding: 5px;
+    line-height: 25px;
+    min-width: 250px;
+    border: solid #9ab2e2 1px;
+    background-color: #2d4d91;
+    float: left;
+    color: #f8f8fa;
+    border-radius: 7px;
+}
+.textbox:hover{
+
+    border: solid #9ab2e2 1px;
+    background-color: #23407e;
+}
+
+#textboxwidth{
+    width: 96%;
+    margin: auto;
+}
+
+.textbox h2{
+    color: #f8f8fa;
+    font-size: 20px;
+}
+.textbox h4{
+    font-weight: normal;
+    color: #cfcfe7;
+    font-size: 15px;
+}
+.textbox h5{
+    font-weight: normal;
+    color: #f1c23f;
+}
+.titletitr{
+    width: 96%;
+    padding: 5px 2%;
+    background-color: #143375;
+    margin-bottom: 10px;
+    border-radius: 7px;
+}
+
+
+
+
+
+.clear{
+    clear: both;
+}
+
+.editpostbtn{
+    margin: 5px; 
+    padding: 0 5px;
+    float: right;
+    border: #fff 1px solid;
+    border-radius: 7px;
+}
+
+
+
+/* Footer */ 
+.footerdv{
+    width: 90%;
+    padding: 20px 5%;
+    margin: 25px 0;
+    background-color: #143375;
+}
+
+.footer-row-top-link{
+    margin: 10px auto;
+    min-height: 10px;
+}
+
+.footer-row-top-link a{
+    margin-right: 10px;
+    font-weight: 540;
+}
+
+.link-3-pont{
+    background-color: #eeab18;
+    color: #143375;
+    padding: 3px 10px 3px 10px ;
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.display-leveling-footer{
+    display: flex;
+    margin: 10px auto;
+    color: #818181;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    border-top: solid 2px #ccc;
+    padding: 10px 0 0 0;
+}
+
+.copyright-box{
+    width: 30%;
+}
+.quick-link-box{
+    width: 60%;
+    padding-left: 10%;
+    text-align: right;
+}
+
+
+/* Form */
+
+.textboxformfield{
+    background-color: #eceff5;
+    color: #143375;
+    font-size: 18px;
+    border: #143375 1px solid;
+    border-radius: 7px;
+    height: 30px;
+    width: 90%;
+    margin: 2px auto;
+    margin-bottom: 15px;
+    padding: 3px;
+}
+
+.btnform{
+    padding: 5px;
+    margin: 5px;
+    background-color: #eeab18;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    border: #000 1px solid;
+    border-radius: 7px;
+    cursor: auto;
+}
+
+.centermsg{
+    text-align: center;
+    margin: auto ;
+    width: 400px;
+    padding: 20px;
+    background-color: #eeab18;
+    color: #143375;
+    border: #143375 1px solid;
+    border-radius: 7px;
+}
+
+.newpostbtn{
+    padding: 5px;
+    background-color: #143375;
+    border: #143375 1px solid;
+    border-radius: 7px;
+}
+
+.spmsg{
+    margin-bottom: 20px;
+}

@@ -1,0 +1,26 @@
+<%- include('components/header') -%>
+
+<h1>Show post information</h1>
+
+
+    <div class="container">
+        <div class="textbox" id="textboxwidth">
+
+                <div class="titletitr">
+                    <h2 > <%= postfeed.title %></h2>
+                </div>
+
+                <h5>Date: <%= postfeed.createdAt.toISOString() %></h5>
+                <h4>Email: <%= postfeed.emailform %></h4>
+                <p ><%= postfeed.description %></p>
+
+                
+                <a  href="/edit-postfeed/<%= postfeed.id %>" class="editpostbtn">Edit PostFeed</a>
+                <a  href="/delete-postfeed/<%= postfeed.id %>" class="editpostbtn">Delete PostFeed</a>
+        </div>
+    </div>
+    <div class="clear">
+    </div>
+
+<%- include('components/footer') -%>
+
